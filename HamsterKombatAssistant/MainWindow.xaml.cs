@@ -115,8 +115,10 @@ namespace HamsterKombatAssistant
             _cancellationTokenSource = new CancellationTokenSource();
 
             var money = int.Parse(MoneyField.Text);
+            var minInc = int.Parse(MinIncField.Text);
+
             var task = Task.Run(() => _logic
-            .CalculateVariants(money, _cancellationTokenSource.Token),
+            .CalculateVariants(money, minInc, _cancellationTokenSource.Token),
                 _cancellationTokenSource.Token);
 
             await task;

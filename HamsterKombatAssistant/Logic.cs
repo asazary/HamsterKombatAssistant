@@ -44,7 +44,7 @@ namespace HamsterKombatAssistant
         }
 
 
-        public HashSet<Variant>? CalculateVariants(int moneyLimit, CancellationToken? cancelToken)
+        public HashSet<Variant>? CalculateVariants(int moneyLimit, int minInc, CancellationToken? cancelToken)
         {            
             var variants = new HashSet<Variant>(_variantsComparer);
 
@@ -70,7 +70,7 @@ namespace HamsterKombatAssistant
                 var info = stack.Pop();
                 VariantsStackCountChanged?.Invoke(stack.Count);
 
-                var goodItems = sortedItems.Where(x => !info.Items.Contains(x));
+                var goodItems = sortedItems.Where(x => !info.Items.Contains(x) && x.Inc >= minInc);
                 foreach (var item in goodItems) {
                     if (info.CostSum + item.IncCost > moneyLimit)
                     {

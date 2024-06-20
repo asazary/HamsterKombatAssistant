@@ -34,12 +34,14 @@
             <Grid Height="32" VerticalAlignment="Center" Grid.Column="0" Margin="0,0,309,0">
                 <TextBox x:Name="MoneyField" HorizontalAlignment="Left" Height="20" TextWrapping="NoWrap" Text="300000" VerticalAlignment="Center" Width="79" Margin="58,0,0,0" PreviewTextInput="NumberValidationTextBox"/>
                 <Label Content="Money" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="58" FontSize="14"/>
-                <Label Content="Max show: " HorizontalAlignment="Left" Margin="142,0,0,0" VerticalAlignment="Center" FontSize="14"/>
-                <TextBox x:Name="MaxShowField" HorizontalAlignment="Left" Height="20" TextWrapping="NoWrap" Text="30" VerticalAlignment="Center" Width="32" Margin="226,0,0,0" PreviewTextInput="NumberValidationTextBox" VerticalContentAlignment="Center"/>
-                <Button x:Name="GoButton" Content="Go" HorizontalAlignment="Left" Margin="336,0,0,0" VerticalAlignment="Center" Width="100" Click="GoButton_Click"/>
-                <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="452,0,0,0" VerticalAlignment="Center" Width="100" Click="CancelButton_Click"/>
-                <TextBlock x:Name="CurrentIncText" Height="20" Margin="513,0,10,0" TextWrapping="Wrap" Text="Current Inc: +0" VerticalAlignment="Center" FontSize="14" TextAlignment="Right"/>
-                
+                <Label Content="Max show: " HorizontalAlignment="Left" Margin="137,0,0,0" VerticalAlignment="Center" FontSize="14"/>
+                <TextBox x:Name="MaxShowField" HorizontalAlignment="Left" Height="20" TextWrapping="NoWrap" Text="30" VerticalAlignment="Center" Width="32" Margin="216,0,0,0" PreviewTextInput="NumberValidationTextBox" VerticalContentAlignment="Center"/>
+                <Button x:Name="GoButton" Content="Go" HorizontalAlignment="Left" Margin="433,0,0,0" VerticalAlignment="Center" Width="75" Click="GoButton_Click"/>
+                <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="524,0,0,0" VerticalAlignment="Center" Width="76" Click="CancelButton_Click"/>
+                <TextBlock x:Name="CurrentIncText" Height="20" Margin="617,0,10,0" TextWrapping="Wrap" Text="Current Inc: +0" VerticalAlignment="Center" FontSize="14" TextAlignment="Right"/>
+                <Label Content="Min Inc:" HorizontalAlignment="Left" Margin="253,0,0,0" VerticalAlignment="Center" FontSize="14"/>
+                <TextBox x:Name="MinIncField" HorizontalAlignment="Left" Height="20" TextWrapping="NoWrap" Text="30" VerticalAlignment="Center" Width="83" Margin="317,0,0,0" PreviewTextInput="NumberValidationTextBox" VerticalContentAlignment="Center"/>
+
 
 
             </Grid>
