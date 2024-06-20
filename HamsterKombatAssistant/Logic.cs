@@ -23,7 +23,8 @@ namespace HamsterKombatAssistant
             .ToList();
 
             Items.Clear();
-            data.ForEach(Items.Add);
+            foreach (var item in data.OrderBy(x => x.GroupId).ThenBy(x => x.Id))
+                Items.Add(item);
 
             RecalcCurrentInc();
         }
