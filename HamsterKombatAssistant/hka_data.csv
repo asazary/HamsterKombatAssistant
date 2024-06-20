@@ -1,0 +1,84 @@
+Id;Name;GroupId;GroupName;Level;Value;Inc;IncCost
+1;Fan tokens;1;Markets;13;19130;2280;1598406
+2;Staking;1;Markets;14;13520;1540;1163040
+3;BTC pairs;1;Markets;15;1000;110;181341
+4;ETH pairs;1;Markets;13;806;96;47952
+5;Top 10 cmc pairs;1;Markets;12;1430;180;80730
+6;GameFi tokens;1;Markets;14;1570;180;166149
+7;Defi2.0 tokens;1;Markets;14;902;103;166149
+8;SocialFi tokens;1;Markets;15;1250;138;362681
+9;Meme coins;1;Markets;13;2210;265;319681
+10;Shit coins;1;Markets;14;13300;1520;1661486
+11;Margin traiding x10;1;Markets;13;5540;663;399602
+12;Margin traiding x20;1;Markets;13;7050;843;399602
+13;Margin traiding x30;1;Markets;14;11270;1280;1163040
+14;Margin traiding x50;1;Markets;15;27640;3030;7253630
+15;Margin traiding x75;1;Markets;13;22150;2650;1198805
+16;Margin traiding x100;1;Markets;14;21980;2510;1661486
+17;Derivatives;1;Markets;16;13800;1460;4156363
+18;Prediction markets;1;Markets;12;6170;777;141278
+19;Web3 integration;1;Markets;13;15910;1900;1038964
+20;DAO;1;Markets;12;4110;518;80730
+21;P2P traiding;1;Markets;13;7850;940;671331
+22;Traiding bots;1;Markets;13;3920;470;335665
+23;Support team;2;PR&Team;13;1410;169;119880
+24;HamsterBook;2;PR&Team;13;1410;169;79920
+25;X;2;PR&Team;13;1610;193;87912
+26;Cointelegraph;2;PR&Team;13;806;96;55944
+27;HamsterTube;2;PR&Team;15;2260;248;435218
+28;HamsterGram;2;PR&Team;13;1000;120;79920
+29;TikTok;2;PR&Team;13;2010;241;119880
+30;Coindesk;2;PR&Team;14;1800;206;332297
+31;Influencers;2;PR&Team;12;4830;608;201826
+32;CEO;2;PR&Team;13;2010;241;159841
+33;IT team;2;PR&Team;13;4830;578;319681
+34;Marketing;2;PR&Team;12;1250;158;80730
+35;Partnership program;2;PR&Team;13;1410;169;79920
+36;Product team;2;PR&Team;12;1780;225;80730
+37;BisDev team;2;PR&Team;13;1000;120;79920
+38;Two factor authentication;2;PR&Team;13;2510;301;159841
+39;UX and UI team;2;PR&Team;13;3520;422;121479
+40;Security team;2;PR&Team;13;4020;482;159841
+41;QA team;2;PR&Team;13;3820;458;203797
+42;Antihacking shield;2;PR&Team;12;1960;248;161461
+43;Risk management team;2;PR&Team;13;5330;639;319681
+44;Security audition;2;PR&Team;11;1570;210;128439
+45;Anonymous transactions ban;2;PR&Team;14;6760;774;299067
+46;Blocking suspicious accounts;2;PR&Team;11;2520;337;53516
+47;Tokenomics expert;2;PR&Team;13;10060;1200;799203
+48;Consensus Explorer pass;2;PR&Team;11;23670;3150;1070326
+49;VC Labs;2;PR&Team;11;7890;1050;663602
+50;Conmpliance officer;2;PR&Team;10;1650;236;83440
+51;Welcome to Amsterdam;2;PR&Team;9;3890;597;41816
+52;KYC;3;Legal;15;251;28;72536
+53;KYB;3;Legal;13;1200;145;79920
+54;Legal opinion;3;Legal;11;947;126;42813
+55;SEC transparancy;3;Legal;13;1200;145;191809
+56;Anti money loundering;3;Legal;12;5010;631;242191
+57;License UAE;3;Legal;13;11270;1350;799203
+58;License Europe;3;Legal;14;16230;1850;1661486
+59;License Asia;3;Legal;11;5840;779;214065
+60;License South America;3;Legal;11;6150;821;214065
+61;License Australia;3;Legal;13;13690;1630;799203
+62;License North America;3;Legal;12;17170;2160;807304
+63;License Nigeria;3;Legal;11;2680;358;64220
+64;License Japan;3;Legal;12;46510;5850;4036518
+65;License Ethiopia;3;Legal;11;28410;3780;1498456
+66;License India;3;Legal;11;39450;5260;1926587
+67;Premarket launch;4;Special;7;64900;12040;5516015
+68;Hamster Kombat merch;4;Special;13;2010;241;479522
+69;TON + Hamster Kombat = Success;4;Special;6;35760;7500;3733456
+70;Consensus Piranha Pass;4;Special;11;29990;3990;2140652
+71;Web3 academy launch;4;Special;14;33820;3860;3655268
+72;Youtube Gold Button;4;Special;14;6200;709;830743
+73;Hamster youtube channel;4;Special;14;5630;645;498446
+74;Bitcoin Pizza day;4;Special;14;2250;258;332297
+75;Top 10 global ranking;4;Special;13;24170;2890;1598406
+76;NFT collection launch;4;Special;12;21460;2700;1372416
+77;Special Hamster Conference;4;Special;15;22610;2480;3626815
+78;Short squeeze;4;Special;10;13810;1996;834397
+79;There are two chairs;4;Special;10;27630;3930;1191995
+80;Villa for the Dev team;4;Special;14;10140;1150;664594
+81;Apps Center Listing;4;Special;13;20140;2410;2397609
+82;Bogdanoff is calling;4;Special;9;5690;873;69693
+83;USDT on TON;4;Special;13;27190;3250;1598406

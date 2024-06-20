@@ -1,0 +1,42 @@
+﻿<Window x:Class="HamsterKombatAssistant.EditItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HamsterKombatAssistant"
+        mc:Ignorable="d"
+        Title="Edit Item" Height="229" Width="293" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterOwner">
+    <Grid x:Name="editItemWindow" Margin="0,0,0,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="210*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="10,10,20,10" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="107"/>
+                <ColumnDefinition Width="Auto" MinWidth="127.87"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="ItemName" TextWrapping="WrapWithOverflow" Text="Item Name" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" FontWeight="Bold"/>
+            <TextBlock x:Name="GroupName" Grid.Column="1" TextWrapping="WrapWithOverflow" Text="Item Group" HorizontalAlignment="Left" VerticalAlignment="Center" Height="18" Width="85" RenderTransformOrigin="0.731,0.755" Margin="40,0,0,0" FontWeight="Bold"/>
+            <TextBox x:Name="ItemLevelValue" Grid.Column="1" Grid.Row="1" Margin="10,0,0,0" PreviewTextInput="NumberValidationTextBox" Text="0" Padding="10,0,0,0" FontSize="14" MaxLength="12" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox x:Name="ItemValue" Grid.Column="1" Margin="10,0,0,0" Grid.Row="2" TextWrapping="Wrap" PreviewTextInput="NumberValidationTextBox" Text="0" Padding="10,0,0,0" FontSize="14" VerticalAlignment="Center" VerticalContentAlignment="Center" MaxLength="12"/>
+            <Label x:Name="ItemIncCostLabel" Content="Inc cost" HorizontalAlignment="Right" Grid.Row="4" Margin="0,0,10,0" FontWeight="Bold" VerticalAlignment="Center" FontSize="14" HorizontalContentAlignment="Right" Padding="0,0,0,0" Height="29" Width="56" VerticalContentAlignment="Center"/>
+            <TextBox x:Name="ItemIncValue" Grid.Column="1" Margin="10,0,0,0" Grid.Row="3" TextWrapping="Wrap" PreviewTextInput="NumberValidationTextBox" Text="0" Padding="10,0,0,0" FontSize="14" VerticalContentAlignment="Center" VerticalAlignment="Center" MaxLength="12"/>
+            <TextBox x:Name="ItemIncCostValue" Grid.Column="1" Margin="10,0,0,0" Grid.Row="4" TextWrapping="Wrap" PreviewTextInput="NumberValidationTextBox" Text="0" Padding="10,0,0,0" FontSize="14" VerticalAlignment="Center" VerticalContentAlignment="Center" MaxLength="12"/>
+            <Label x:Name="ItemIncLabel" Content="Inc" Grid.Row="3" Margin="0,0,10,0" HorizontalAlignment="Right" FontWeight="Bold" VerticalAlignment="Center" FontSize="14" Padding="0,0,0,0" Height="29" Width="25" VerticalContentAlignment="Center"/>
+            <Label x:Name="ItemValueLabel" Content="Current value" Grid.Row="2" HorizontalAlignment="Center" FontWeight="Bold" VerticalAlignment="Center" FontSize="14" Padding="0,0,0,0" Height="28" Width="94" VerticalContentAlignment="Center"/>
+            <Label x:Name="ItemLevelLabel" Content="Level" Grid.Row="1" Margin="0,0,10,0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="0,0,0,0" Height="29" Width="39" VerticalContentAlignment="Center"/>
+            <Button x:Name="EditItemSaveButton" Content="Save" HorizontalAlignment="Right" VerticalAlignment="Center" Width="75" FontSize="14" Click="EditItemSaveButton_Click" FontWeight="Bold" Grid.Row="5" Margin="0,0,10,0"/>
+            <Button x:Name="EditItemCancelButton" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" Width="84" Click="EditItemCancelButton_Click" FontWeight="Bold" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0"/>
+        </Grid>
+
+    </Grid>
+</Window>
